@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  # root 'static#home'
+
   namespace :api do 
     resources :blogs do
       resources :posts 
