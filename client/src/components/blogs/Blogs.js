@@ -1,3 +1,6 @@
+import Navbar from './Navbar';
+
+
 const Blogs = () => {
   return (
     <>
