@@ -1,9 +1,12 @@
 import Navbar from './Navbar';
+import {Header,Segment} from 'semantic-ui-react';
 
 const About = () => (
 
 <>
-<h1>hello there</h1>
+<Segment inverted>
+<Header as='h1' color='orange' textAlign='center ' inverted size='massive'>What is the site about?</Header>
+</Segment>
 </>
 )
 
