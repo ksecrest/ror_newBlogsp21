@@ -20,6 +20,16 @@ const Navbar = () => {
             Blogs
         </Menu.Item>
       </Link>
+      <Link to='/TW'>
+        <Menu.Item>
+            TW
+        </Menu.Item>
+      </Link>
+      <Link to='/Grimm'>
+        <Menu.Item>
+            Grimm: Top Secret
+        </Menu.Item>
+      </Link>
     </Menu>
     
 

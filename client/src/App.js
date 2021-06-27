@@ -4,6 +4,10 @@ import About from './components/shared/About';
 import NoMatch from './components/shared/NoMatch';
 import Navbar from './components/shared/Navbar';
 import Blogs from './components/blogs/Blogs';
+import TW from './components/shared/TW';
+import Grimm from './components/shared/Grimm';
+
+
 import { Container } from 'semantic-ui-react';
 
 const App = () => (
@@ -15,7 +19,8 @@ const App = () => (
   <Route exact path="/home" component={Home} />
   <Route exact path="/about" component={About} />
   <Route exact path="/Blogs" component={Blogs} />
-
+  <Route exact path="/Grimm" component={Grimm} />
+  <Route exact path="/TW" component={TW} />
   <Route component={NoMatch} />
   </Switch>
   </Container>
